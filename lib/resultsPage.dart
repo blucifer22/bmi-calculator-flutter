@@ -37,6 +37,11 @@ class ResultsPage extends StatelessWidget {
                   Text(
                     '18.3',
                     style: kBMITextStyle,
+                  ),
+                  Text(
+                    'Your BMI is quite low, you should eat more!',
+                    textAlign: TextAlign.center,
+                    style: kBodyTextStyle,
                   )
                 ],
               ),
